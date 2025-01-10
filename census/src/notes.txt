@@ -1,0 +1,6 @@
+Controller receives an HTTP request and validates it.
+It calls the appropriate method in the Service, passing any required data.
+The Service applies business logic and interacts with the Repository to fetch or persist data.
+The Repository interacts with the database and returns the results to the Service.
+The Service processes the data and sends it back to the Controller.
+The Controller constructs the HTTP response and sends it back to the client.
